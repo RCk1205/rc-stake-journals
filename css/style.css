@@ -192,3 +192,7 @@ footer{
     line-height:1.7;
     opacity:0.8;
 }
+.card-link{
+    text-decoration:none;
+    color:inherit;
+}
