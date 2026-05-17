@@ -17,9 +17,17 @@ body.dark{
     --text:#ffffff;
     --card:#1E1E1E;
 
-    background-image:
-    linear-gradient(rgba(18,18,18,0.94), rgba(18,18,18,0.94)),
+    background:
+    linear-gradient(
+        rgba(18,18,18,0.72),
+        rgba(18,18,18,0.72)
+    ),
     url('../assets/comback1.jpg');
+
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
 }
 
 body{
@@ -28,10 +36,13 @@ body{
     transition:0.3s;
 
     background:
-    linear-gradient(rgba(247,248,245,0.95), rgba(247,248,245,0.95)),
-    url('../assets/comback1.jpg');
+    linear-gradient(
+        rgba(247,248,245,0.72),
+        rgba(247,248,245,0.72)
+    ),
+    url('../assets/back1.jpg');
 
-    background-size:600px;
+    background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
