@@ -12,7 +12,7 @@
     --card:#ffffff;
 }
 
-body.dark{
+bbody.dark{
     --bg:#121212;
     --text:#ffffff;
     --card:#1E1E1E;
@@ -22,7 +22,7 @@ body.dark{
         rgba(18,18,18,0.72),
         rgba(18,18,18,0.72)
     ),
-    url('../assets/comback1.jpg');
+    url('../assets/developerworkspace.jpeg');
 
     background-size:cover;
     background-repeat:no-repeat;
@@ -40,7 +40,7 @@ body{
         rgba(247,248,245,0.72),
         rgba(247,248,245,0.72)
     ),
-    url('../assets/back1.jpg');
+    url('../assets/developerworkspace.jpeg');
 
     background-size:cover;
     background-repeat:no-repeat;
