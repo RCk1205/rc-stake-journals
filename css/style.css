@@ -196,3 +196,60 @@ footer{
     text-decoration:none;
     color:inherit;
 }
+.article-hero{
+    padding:120px 8% 40px;
+}
+
+.article-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.article-hero h1{
+    font-size:3rem;
+    margin:20px 0;
+    line-height:1.2;
+}
+
+.article-meta{
+    opacity:0.7;
+    margin-bottom:30px;
+}
+
+.article-cover{
+    width:100%;
+    border-radius:24px;
+    margin-top:20px;
+}
+
+.article-content-section{
+    padding:40px 8% 100px;
+}
+
+.article-content-section p{
+    line-height:1.9;
+    margin-bottom:25px;
+    font-size:1.05rem;
+}
+
+.article-content-section h2{
+    margin:50px 0 20px;
+    font-size:2rem;
+}
+
+.article-content-section ul{
+    margin-left:20px;
+    margin-bottom:30px;
+}
+
+.article-content-section li{
+    margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+    .article-hero h1{
+        font-size:2.2rem;
+    }
+
+}
