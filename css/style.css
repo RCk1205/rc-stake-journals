@@ -16,13 +16,26 @@ body.dark{
     --bg:#121212;
     --text:#ffffff;
     --card:#1E1E1E;
+
+    background-image:
+    linear-gradient(rgba(18,18,18,0.94), rgba(18,18,18,0.94)),
+    url('../assets/comback1.jpg');
 }
 
 body{
     font-family:'Inter',sans-serif;
-    background:var(--bg);
+    background-color:var(--bg);
     color:var(--text);
     transition:0.3s;
+
+    background-image:
+    linear-gradient(rgba(247,248,245,0.92), rgba(247,248,245,0.92)),
+    url('../assets/bg-watermark.png');
+
+    background-size:700px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
 }
 
 .navbar{
